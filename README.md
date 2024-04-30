@@ -208,8 +208,8 @@ What is the result?
 The are 1 correct answers
 
 200 : 400
--[x] A compilation error occurs at line n1
-A compilation error occurs at line n2
+A compilation error occurs at line n1
+-[x] A compilation error occurs at line n2
 100 : 400
 
 
@@ -256,8 +256,8 @@ public class Main {
 The are 1 correct answers
 
 1
-7
--[x] 8
+-[x] 7
+8
 2
 -1
 
@@ -353,8 +353,8 @@ The are 1 correct answers
 
 The code will not compile
 Replace line n1 with import fruits.Apple.getApple();
-Replace line n1 with import fruits.Apple;
--[x] Replace line n1 with import fruits;
+-[x] Replace line n1 with import fruits.Apple;
+ Replace line n1 with import fruits;
 Replace line n2 with fruits.Apple apple = new Apple ();
 -[x] Replace line n2 with fruits.Apple apple = new fruits.Apple ();
 
@@ -373,9 +373,9 @@ Given the code fragment:
 Which code fragments are valid at line 2?
 
 The are 2 correct answers
--[x] for (int count = 0; count < 5; count++) { System.out.print(count); }
+for (int count = 0; count < 5; count++) { System.out.print(count); }
 package p1; import java.util.*;public void display() { List nums = new ArrayList();}
-{int num;}private String name = “John”;
+-[x] {int num;}private String name = “John”;
 -[x] public void display() { System.out.print(name); }
 
 
@@ -571,9 +571,9 @@ What is the result?
 The are 1 correct answers
  
 
--[x] better bigger boot
+better bigger boot
 bigger shinier better boot
-better shinier bigger boot
+-[x] better shinier bigger boot
 An ExceptionInInitializationError is thrown at runtime
 shinier better bigger boot
 better bigger shinier boot
@@ -614,8 +614,8 @@ The are 1 correct answers
 The output is 0
 The code compiles if line 2 is changed to read
 Useful u = new Useful();
--[x] The output is 6
-Compilation fails
+The output is 6
+-[x] Compilation fails
 The code compiles if line 1 is removed
 
 
