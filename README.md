@@ -1,4 +1,4 @@
-- 1. 
+- 1.  x
 
 Given the code fragment:
 
@@ -35,7 +35,7 @@ Ball b = new Ball(0.0);
 
 _______________________________________________________________
 
-- 2. 
+- 2.  x
 
 What is a Parameterized Constructor?
 The are 1 correct answers
@@ -51,7 +51,7 @@ It is a constructor that takes no parameters
 
 _________________________________________________________--
 
-- 3. 
+- 3. x
 
 Given the code:
 
@@ -84,7 +84,7 @@ The are 1 correct answers
 
 ________________________________________________________
 
-- 4.  
+- 4.  x
 
 
 Which two Java reserved words are used to implement encapsulation?
@@ -101,7 +101,7 @@ extends
 
 __________________________________________________________
 
-- 5.  
+- 5.  x
 
 
 Under what situations does a class get a default constructor?
@@ -116,7 +116,7 @@ None of the above
 
 ____________________________________________________________-
 
-- 6. 
+- 6. x
 
 Which of the following classes have a default constructor?
 
@@ -159,15 +159,15 @@ The are 1 correct answers
 All of these
 2,3,5
 1,2,3,5
-1,2,5,6
+-[x] 1,2,5,6
 3,4
--[x] 1,2,6
+1,2,6
 
 
 _____________________________________________________--
 
 
-- 8. 
+- 8. x
 
 Given the contents of the Test.java file:
 
@@ -301,9 +301,9 @@ What is the result?
 
 The are 1 correct answers
 
--[x] Hello World! Duke
+Hello World! Duke
 An exception is thrown at runtime
-The code does not compile
+-[x] The code does not compile
 Hello World! Java
 The program fails to execute due to a runtime error
 
@@ -312,7 +312,7 @@ The program fails to execute due to a runtime error
 _________________________________________________________
 
 
-- 11.  
+- 11.  x
 
 Given the classes:
 
@@ -361,7 +361,7 @@ Replace line n2 with fruits.Apple apple = new Apple ();
 _______________________________________________________-
 
 
-- 12.   
+- 12.   x 
 
 Given the code fragment:
 
@@ -410,7 +410,7 @@ The are 1 correct answers
 ________________________________________________________
 
 
-- 14.  
+- 14.  x
 
 Fill in the blanks: The ___________________ access modifier allows
 
@@ -428,7 +428,7 @@ None of the above
 
 _______________________________________________________-
 
-- 15. 
+- 15.  x
 
 Given:
 
@@ -485,7 +485,7 @@ FALSE
 _____________________________________________-
 
 
-- 17. 
+- 17. x
 
 Given:
 
@@ -537,7 +537,7 @@ The code compiles and prints: default luxury
 
 ________________________________________________________________
 
-- 18.  
+- 18.  x
 
 Given the following code:
 
@@ -584,7 +584,7 @@ better bigger shinier boot
 __________________________________________________________________
 
 
-- 19.   
+- 19.   x
 
 Given the classes in different files:
 
@@ -619,6 +619,335 @@ The output is 6
 The code compiles if line 1 is removed
 
 
+
+__________________________________________________________________
+
+- 20. 
+
+Which of the following keywords is used to allocate memory to an object in Java?
+The are 1 correct answers
+
+void
+-[x] new
+this
+allocate
+return
+thread
+
+__________________________________________________________-_____
+
+- 21. 
+
+Should we make a variable public inside a class to achieve encapsulation?
+The are 1 correct answers
+
+-[x] Incorrect
+Correct
+
+
+
+__________________________________________________________________
+- 22. 
+
+The below program will be executed successfully or not? Select either Correct or Incorrect.
+The are 1 correct answers
+
+package com.company;
+
+class MyClass{
+String name;
+private MyClass(String name){
+this.name = name;
+}
+
+}
+
+public class Main {
+
+public static void main(String[] args) {
+
+MyClass myClass = new MyClass("Adam");
+}
+}
+
+-[x] Incorrect
+Correct
+
+
+
+__________________________________________________________________
+- 23. 
+
+Which of the following are not a valid access modifiers in Java?
+The are 3 correct answers
+
+default
+-[x] static
+-[x] void
+private
+protected
+-[x] main
+
+
+
+__________________________________________________________________
+- 24. 
+
+What is the use of getter and setter methods?
+The are 1 correct answers
+
+To send data to the server
+To achieve polymorphism
+-[x] To achieve encapsulation
+To achieve abstraction
+To achieve multithreading
+To get the data from the server
+
+
+
+__________________________________________________________________
+- 25. 
+
+Which of the following keyword is used to create an object?
+The are 1 correct answers
+
+extend
+append
+static
+allocate
+public
+-[x] new
+
+
+
+
+__________________________________________________________________
+- 26. 
+
+What modifiers can be used with a top-level class?
+The are 3 correct answers
+
+private
+protected
+-[x] abstract
+default
+-[x] final
+-[x] public
+
+
+
+
+__________________________________________________________________
+
+- 27. 
+
+Private access modifier is accessible only within a same class?
+The are 1 correct answers
+
+Incorrect
+-[x] Correct
+
+__________________________________________________________________
+
+- 28. 
+
+What will be the output of the following code?
+The are 1 correct answers
+
+class Const{
+
+int a, b, c;
+
+Const(int a){
+this(1, 2);
+}
+
+Const(int a, int b){
+this(1,2,3);
+}
+
+Const(int a, int b, int c){
+System.out.print(a+b+c);
+
+}
+
+}
+
+
+
+public class Main {
+
+public static void main(String[] args) {
+new Const(5);
+
+}
+
+}
+
+3
+4
+5
+-[x] 6
+2
+zero
+
+__________________________________________________________________
+
+- 29. 
+
+What is a singleton class in Java?
+The are 1 correct answers
+
+No object can be created inside this class.
+The class which can have many objects at a time.
+A class that don’t have any methods.
+The class which can have only one object at a time.
+-[x] A class in which all the methods are made protected.
+A class that contains an inner class.
+
+__________________________________________________________________
+
+- 30. 
+
+What will happen if we don’t provide an access modifier while declaring a class in Java?
+The are 1 correct answers
+
+It will be considered as having a private access modifier
+It will throw an error
+It will be considered as having a protected access modifier
+All of these options are correct
+-[x] It will be considered as having a default access modifier
+None of these
+
+__________________________________________________________________
+
+- 31. 
+
+
+Which keyword is used for constructor chaining in Java?
+The are 1 correct answers
+
+class
+constructor
+public
+none of these
+-[x] this
+new
+
+__________________________________________________________________
+
+- 32. 
+
+Propose the expected result of this code.
+The are 1 correct answers
+
+
+package com.company;
+
+class Parent{
+int value1;
+int value2;
+
+public int getValue1() {
+return value2;
+}
+
+public void setValue1(int value1) {
+this.value1 = value1;
+}
+
+public int getValue2() {
+return value1;
+}
+
+public void setValue2(int value2) {
+this.value2 = value2;
+}
+}
+
+public class Main {
+
+public static void main(String[] args) {
+Parent parent = new Parent();
+parent.setValue1(5);
+System.out.print(parent.getValue1());
+}
+}
+
+5
+1
+compile time error
+50
+-[x] Zero
+runtime error
+
+
+__________________________________________________________________
+
+- 33. 
+
+Which of the following are valid access modifiers in Java?
+The are 3 correct answers
+
+main
+-[x] default
+-[x] private
+-[x] protected
+static
+void
+
+
+__________________________________________________________________
+
+- 34. 
+
+What will happen if a variable is made private?
+The are 1 correct answers
+
+It can be accessible outside the package.
+-[x] It can only be accessible within a class where it is defined.
+It can be accessed by all the classes.
+It cannot be accessed by interfaces and abstract classes.
+It can be accessed by anywhere within the Java project.
+It will not be accessible outside the package.
+
+__________________________________________________________________
+
+- 35. 
+
+The below code will be executed successfully?
+The are 1 correct answers
+
+package com.company;
+
+class ArrayClass{
+int arr[];
+
+public ArrayClass(int arr[]){
+this.arr = arr;
+}
+}
+
+public class Main {
+
+public static void main(String[] args) {
+
+new ArrayClass(new int[]{});
+}
+}
+
+Incorrect
+-[x] Correct
+
+__________________________________________________________________
+
+- 36. 
+
+Is it possible to call a constructor inside another in Java?
+The are 1 correct answers
+
+Incorrect
+-[x] Correct
 
 __________________________________________________________________
 
